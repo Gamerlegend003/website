@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ilyan Allana | Mechanical Engineering Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            Ilyan Allana
+        </a>
+
+        <ul class="nav-links">
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#experience">Experience</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#certifications">Certifications</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-grid">
+
+        <div class="hero-left">
+
+            <p class="hero-label">
+                MECHANICAL ENGINEERING PORTFOLIO
+            </p>
+
+            <h1>
+                Ilyan<br>
+                Allana
+            </h1>
+
+            <h2>
+                Mechanical Engineering Student
+                <span>Texas A&M University</span>
+            </h2>
+
+            <p class="hero-description">
+
+                I am passionate about designing, prototyping,
+                and building mechanical systems through CAD,
+                fabrication, and hands-on engineering projects.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="primary-btn">
+                    View Projects
+                </a>
+
+                <a href="assets/Resume Portfolio.pdf" class="secondary-btn" target="_blank">
+                    Resume
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <a href="#projects" class="current-project-card">
+
+            <p class="card-label">
+
+                CURRENT PROJECT
+
+            </p>
+
+            <h3>
+
+                Wearable Robotic Thumb
+
+            </h3>
+
+            <p class="status">
+
+                In Progress
+
+            </p>
+
+            <span>
+
+                Explore Project →
+
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about">
+
+    <p class="section-label">
+
+        ABOUT
+
+    </p>
+
+    <h2>
+
+        Learning through design.
+        <br>
+        Building through experience.
+
+    </h2>
+
+    <p>
+
+        I am a Mechanical Engineering student at Texas A&M University with an interest in mechanical design, prototyping, and product development. I enjoy turning ideas into functional designs through CAD, fabrication, and iterative problem solving. I'm always looking for opportunities to expand my technical skills while contributing to meaningful engineering projects.
+
+    </p>
+
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience">
+
+    <p class="section-label">
+
+        EXPERIENCE
+
+    </p>
+
+    <div class="experience-grid">
+
+        <div class="experience-text">
+
+            <h2>
+
+                NASA HUNCH
+
+            </h2>
+
+            <h4>
+
+                Team Leader
+                <br>
+                August 2023 – May 2024
+
+            </h4>
+
+            <ul>
+
+                <li>Designed and modeled a Multi-Tool Badge Holder prototype for NASA in Inventor and AutoCAD, carrying 5+ tools, alongside 2 team members.</li>
+
+                <li>Fabricated and tested 4+ prototypes with 3D printers, drills, and leatherworking tools, troubleshooting design challenges.</li>
+
+                <li>Presented design concepts to University of Houston professors and NASA employees at Johnson Space Center, advancing to the Semi-Finalist round in a national competition.</li>
+
+            </ul>
+
+            <div class="badge">
+
+                National Semi-Finalist
+
+            </div>
+
+        </div>
+
+       <div class="experience-images">
+
+            <div class="prototype-card">
+                <div class="prototype-image-frame">
+                    <img id="prototypeImage" class="prototype-image" src="assets/id-badge-front.jpeg" alt="NASA HUNCH Prototype">
+                    <div class="prototype-overlay">
+                        <span>Prototype</span>
+                    </div>
+                </div>
+                <div class="prototype-tools">
+                    <div class="prototype-tools-label">Tools:</div>
+                    <span>Pen/Glasses Holder</span>
+                    <span>Ruler</span>
+                    <span>Level</span>
+                    <span>Light</span>
+                    <span>Clip</span>
+                </div>
+            </div>
+
+    
+            <a href="NASA%20HUNCH%20Badge%20Master%20Sheet%20(1).pdf" target="_blank" rel="noreferrer noopener" class="master-sheet-card">
+                <img src="assets/nasa-hunch-master.png" alt="NASA HUNCH Master Sheet" class="master-sheet-image">
+                <p class="master-sheet-caption">Click to view</p>
+            </a>
+
+        </div>
+
+
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects">
+
+    <p class="section-label">
+
+        PROJECT
+
+    </p>
+
+    <h2>
+
+        Wearable Robotic Thumb
+
+    </h2>
+
+    <p class="status">
+
+        In Progress
+
+    </p>
+
+    <p>
+
+        Developing a functional wearable robotic thumb prototype, controlled wirelessly via an IR remote, by integrating SolidWorks modeled 3D-printed components with an Arduino driven SG90 servo system.
+
+    </p>
+
+    <div class="project-gallery">
+
+        <div class="gallery-card">
+            <model-viewer src="assets/Thumb_Assembly.glb" alt="Wearable Robotic Thumb" camera-controls auto-rotate exposure="1" interaction-prompt="none" style="width:100%; height:100%;">
+            </model-viewer>
+        </div>
+
+        <div class="gallery-card">
+
+            Prototype
+
+        </div>
+
+        <div class="gallery-card">
+
+            Testing
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills">
+
+    <p class="section-label">
+
+        SKILLS
+
+    </p>
+
+    <div class="skills-grid">
+
+        <div>SolidWorks</div>
+
+        <div>Autodesk Inventor</div>
+
+        <div>AutoCAD</div>
+
+        <div>Arduino</div>
+
+        <div>3D Printing</div>
+
+        <div>Prototyping</div>
+
+    </div>
+
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section id="certifications">
+
+    <p class="section-label">
+
+        CERTIFICATIONS
+
+    </p>
+
+    <div class="certificate-grid">
+
+        <a href="Inventor%20Certificate.pdf" target="_blank" rel="noreferrer noopener" class="certificate-card">
+
+            <div class="cert-preview">
+                <img src="assets/inventor-cert-preview.png" alt="Inventor Certificate" class="cert-image">
+            </div>
+
+            <h4>
+
+                Autodesk Inventor Certified User
+
+            </h4>
+
+            <p class="cert-caption">Click to view</p>
+
+        </a>
+
+        <a href="SolidWorks%20Certificate.pdf" target="_blank" rel="noreferrer noopener" class="certificate-card">
+
+            <div class="cert-preview">
+                <img src="assets/solidworks-cert-preview.png" alt="SolidWorks Certificate" class="cert-image">
+            </div>
+
+            <h4>
+
+                SolidWorks Essentials
+
+            </h4>
+
+            <p class="cert-caption">Click to view</p>
+
+        </a>
+
+        <a href="Arduino%20Foundations%20Certificate.pdf" target="_blank" rel="noreferrer noopener" class="certificate-card">
+
+            <div class="cert-preview">
+                <img src="assets/arduino-cert-preview.png" alt="Arduino Foundations Certificate" class="cert-image">
+            </div>
+
+            <h4>
+
+                Arduino Foundations
+
+            </h4>
+
+            <p class="cert-caption">Click to view</p>
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+    <p class="section-label">
+
+        LET'S CONNECT
+
+    </p>
+
+    <h2>
+
+        Always happy to talk engineering, opportunities, or ideas.
+
+    </h2>
+
+    <div class="contact-grid">
+
+        <a href="mailto:ilyanallana@tamu.edu" class="contact-link" aria-label="Email">
+            <span class="contact-icon">✉</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ilyanallana/" target="_blank" rel="noreferrer noopener" class="contact-link" aria-label="LinkedIn">
+            <span class="contact-icon">in</span>
+        </a>
+
+        <a href="assets/Resume%20Portfolio.pdf" class="contact-link" aria-label="Resume" target="_blank" rel="noreferrer noopener">
+            <span class="contact-icon contact-icon-resume" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M14 2H6C4.895 2 4 2.895 4 4V20C4 21.105 4.895 22 6 22H18C19.105 22 20 21.105 20 20V8L14 2Z" stroke="#500000" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M14 2V8H20" stroke="#500000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+        </a>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
