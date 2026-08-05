@@ -1280,6 +1280,12 @@ section{
 
 }
 
+.hero{
+
+    padding:150px 25px 90px;
+
+}
+
 .navbar{
 
     flex-direction:column;
